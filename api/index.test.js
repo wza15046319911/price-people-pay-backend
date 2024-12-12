@@ -1,9 +1,11 @@
-require("dotenv").config();
-const request = require('supertest');
-const app = require('./index');
-const { neon } = require("@neondatabase/serverless");
+import dotenv from 'dotenv';
+import request from 'supertest';
+import app from './index.js';
+import { neon } from '@neondatabase/serverless';
 
-const db = neon(process.env.DATABASE_URL);
+dotenv.config("../.env");
+
+const db = neon(process.env.VITE_DATABASE_URL);
 
 describe('GET /car', () => {
   // Test data
