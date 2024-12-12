@@ -21,7 +21,7 @@ A backend service that manages pricing data and user interactions. Built with Ex
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/wza15046319911/price-people-pay-backend.git
 cd price-people-pay-backend
 ```
 
