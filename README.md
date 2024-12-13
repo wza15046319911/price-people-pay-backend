@@ -94,6 +94,9 @@ docker run -p 3000:3000 price-people-pay-backend
 - WebSocket - Real-time communication
 - JWT - Authentication
 
+## Possible Improvements
+Split the existing cars table into two tables. The first table should include car_id and car_maker. The second table should contain all information related to a specific maker. The two tables should be connected via the car_maker.
+
 ## License
 
 This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
